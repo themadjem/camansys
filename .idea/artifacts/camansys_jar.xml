@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="camansys:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/camansys_jar</output-path>
+    <root id="archive" name="camansys.jar">
+      <element id="module-output" name="camansys" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../commons-lang3-3.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$APPLICATION_HOME_DIR$/redist/annotations-java8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../Utils.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../gson-2.8.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
