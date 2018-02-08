@@ -1,4 +1,7 @@
-/.idea
-/out
-.mf
-.iml
+
+#IDEA files from Gradle
+.idea/
+out/
+/*.iml
+/*.ipr
+/*.iws
